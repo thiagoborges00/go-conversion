@@ -10,12 +10,9 @@ type camisa struct {
 }
 
 func main() {
-	fmt.Println("iniciando")
+	fmt.Println("hhh")
 	camisa_botafogo := camisa{"preta", 40.2, "v", true}
-	camisa_bahia := camisa{}
-	camisa_bahia.cor = "azul"
 
-	fmt.Println(camisa_botafogo.gola)
-	fmt.Println(camisa_bahia)
+	fmt.Println(camisa_botafogo)
 
 }
