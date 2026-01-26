@@ -13,6 +13,7 @@ func (casa *aretangulo) area() float64 {
 
 // método é uma função associada a um tipo, só funciona
 // para o tipo que foi declarado
+// os parametros sao posicionais
 
 func main() {
 	a := aretangulo{8.0, 42}
